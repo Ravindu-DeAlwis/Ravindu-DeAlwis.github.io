@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ravindu De Alwis – CV</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       text-align: center;
-      margin-top: 100px;
-      background-color: #f5f5f5;
+      max-width: 400px;
+      width: 90%;
     }
     h1 {
-      color: #333;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #2c3e50;
+    }
+    p {
+      margin: 0 0 25px;
+      color: #555;
     }
     a.button {
-      display: inline-block;
-      padding: 12px 24px;
-      margin-top: 20px;
-      font-size: 16px;
+      background-color: #007bff;
       color: white;
-      background-color: #0073e6;
+      padding: 12px 24px;
       text-decoration: none;
       border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      margin-bottom: 20px;
     }
     a.button:hover {
-      background-color: #005bb5;
+      background-color: #0056b3;
+    }
+    .contact {
+      margin-top: 15px;
+      font-size: 15px;
+      color: #333;
+      line-height: 1.8;
+    }
+    .contact a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <h1>Ravindu De Alwis</h1>
-  <p>Download my CV below:</p>
-  <a href="CV.pdf" class="button" download>Download CV</a>
+  <div class="card">
+    <h1>Ravindu De Alwis</h1>
+    <p>Quality Assurance Engineer</p>
+    <a href="CV.pdf" class="button" download>📄 Download My CV</a>
+
+    <div class="contact">
+      <div><a href="https://linkedin.com/in/ravindu-de-alwis-578085326" target="_blank">🔗 LinkedIn</a></div>
+      <div>📧 ravinduweerasiriwardhana@gmail.com</div>
+      <div>📱 (+371) 22029263</div>
+      <div>📍 Riga, Latvia</div>
+    </div>
+
+    <footer>© 2025 Ravindu De Alwis</footer>
+  </div>
 </body>
 </html>
